@@ -182,7 +182,7 @@ class ReactInstanceManagerHolder {
         reactInstanceManager
             = ReactInstanceManager.builder()
                 .setApplication(application)
-                .setBundleAssetName("index.android.bundle")
+                .setBundleAssetName("index-jitsi.android.bundle")
                 .setJSMainModulePath("index.android")
                 .addPackages(packages)
                 .setUseDeveloperSupport(BuildConfig.DEBUG)
